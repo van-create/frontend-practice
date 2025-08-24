@@ -1,14 +1,8 @@
-:root{
-  --bg: #efe2c7;
-  --text: #3a3a3a;
-  --blue: #4095b4;
-}
-
 body{
   margin: 0;
-  background: var(--bg);
+  background: #efe2c7;
   font: 16px/1.6 Arial, Helvetica, sans-serif;
-  color: var(--text);
+  color: #3a3a3a;
 }
 
 .wrap{
@@ -31,14 +25,14 @@ body{
 
 .wrap .label{
   font-weight: 700;
-  color: var(--blue);
+  color: #4095b4;
   min-width: 70px;
 }
 
 .wrap .subtitle{
   margin: 3px 0;
   font-weight: 700;
-  color: var(--blue);
+  color: #4095b4;
 }
 
 .wrap p{
