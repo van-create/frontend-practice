@@ -1,0 +1,51 @@
+:root{
+  --bg: #efe2c7;
+  --text: #3a3a3a;
+  --blue: #4095b4;
+}
+
+body{
+  margin: 0;
+  background: var(--bg);
+  font: 16px/1.6 Arial, Helvetica, sans-serif;
+  color: var(--text);
+}
+
+.wrap{
+  max-width: 747px;
+  margin: 22px auto 40px;
+}
+
+.wrap h1{
+  margin: 0 0 10px 0;
+  font-size: 30px;
+  line-height: 1.15;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  color: #2f2f2f;
+}
+
+.wrap .row{
+  margin: 3px 0;
+}
+
+.wrap .label{
+  font-weight: 700;
+  color: var(--blue);
+  min-width: 70px;
+}
+
+.wrap .subtitle{
+  margin: 3px 0;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.wrap p{
+  margin: 10px 0;
+  text-indent: 16px;
+}
+
+.wrap .old-price{
+  text-decoration: line-through;
+}
