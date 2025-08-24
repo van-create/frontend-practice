@@ -1,0 +1,51 @@
+.table-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.team-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.team-table th {
+    background-color: #3598db;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.team-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.team-table tr.highlight td {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 600px) {
+    .table-container {
+        padding: 10px;
+    }
+    .team-table td,
+    .team-table th {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+.team-table tr {
+    display: table-row;
+}
+
+.team-table td,
+.team-table th {
+    box-sizing: border-box;
+}
