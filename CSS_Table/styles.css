@@ -14,11 +14,9 @@
 .team-table th {
     background-color: #3598db;
     color: #fff;
-    padding: 8px;
     text-align: left;
     font-weight: normal;
-    padding-left: 10px;
-    padding-top: 15px;
+    padding: 15px 8px 8px 10px;
 }
 
 .team-table td {
@@ -28,17 +26,6 @@
 
 .team-table tr.highlight td {
     background-color: #f2f2f2;
-}
-
-@media (max-width: 600px) {
-    .table-container {
-        padding: 10px;
-    }
-    .team-table td,
-    .team-table th {
-        padding: 8px;
-        font-size: 14px;
-    }
 }
 
 .team-table tr {
